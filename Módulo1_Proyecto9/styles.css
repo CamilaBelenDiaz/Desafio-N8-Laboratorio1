@@ -1,0 +1,51 @@
+
+
+body {
+    background-image:url(imagenes/fondo.png);
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;     /* centra vertical */
+}
+
+
+.contenedor {
+  width: 750px;
+  height: 450px;
+  background: #15163d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario{
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.field{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #15163d;
+    width: 516px;
+    height: 50px;
+    color: white;
+}
